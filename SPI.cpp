@@ -19,6 +19,8 @@ void SPIClass::begin(byte sck,byte mosi,byte miso,byte ss) {
   // When the SS pin is set as OUTPUT, it can be used as
   // a general purpose output port (it doesn't influence
   // SPI operations).
+  
+  //Initialize
 SCK  = sck;
 MOSI = mosi;
 MISO = miso;
